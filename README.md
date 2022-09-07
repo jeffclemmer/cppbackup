@@ -39,3 +39,6 @@ It then passes this to a loop that encrypts each file, then transmits it to AWS 
 
 Since I'm only showing this as an example of code I've written, I'll leave it up to the person reviewing this system to build and install the above software libraries to run the system.  If I feel obliged, I'll update this another time to show the installation process.
 
+## Thoughts
+
+This could be improved quite a bit.  For example, it uses a work directory where everything is compressed and encrypted, but it doesn't need to.  It also could be modularized quite a bit.  I initially did this quick and dirty style, over the course of a few days.  I probably wouldn't write this in C++ at this point either.  I'd probably write this in Node.js using CryptoJS APIs built into Javascript as of 2022.  I might also build a GUI front end using Electron, split up the actual functionality into a common library, and then build a CLI tool and a GUI tool that interfaces with that standard library.
