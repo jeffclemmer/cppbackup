@@ -8,16 +8,16 @@ I wrote this back in 2014.
 
 ## Tech Used
 
-It also uses **LevelDB** for settings and other associated functions.
+Uses **LevelDB** for settings and other associated functions.
 https://github.com/google/leveldb
 
-It uses **BZIP2** for compression.
+Uses **BZIP2** for compression.
 https://sourceware.org/bzip2/
 
-This project uses **Crypto++** to do the actual encryption, using **AES-GCM** for the specific encryption algorithm.
+Uses **Crypto++** to do the actual encryption, using **AES-GCM** for the specific encryption algorithm.
 https://cryptopp.com/
 
-LibS3 is used to help with handling S3.
+Uses LibS3 to help with handling S3.
 https://github.com/bji/libs3
 
 Finally, it uses **TCLAP** for command line parsing.
